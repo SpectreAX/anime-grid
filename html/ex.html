@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>动画生涯个人喜好表生成器扩展版 - 神奇海螺试验场</title>
-    <meta name=keywords content="动画生涯,个人喜好表生成器,神奇海螺试验场,magiconch,卜卜口">
+    <title>Anime Grid Plus - SpectreAXのBlog</title>
+    <meta name=keywords content="动画生涯,个人喜好表生成器,SpectreAXのBlog,动画生涯个人喜好表,动画喜好表,Anime Grid">
     <link rel="stylesheet" href="document.css">
 </head>
 <body>
@@ -14,8 +22,8 @@
         <a href="./">太多了，回普通版</a>
     </div>
     <footer>
-        <a href="https://lab.magiconch.com/" target="_blank">神奇海螺试验场</a>
-        <a href="https://weibo.com/reiove" target="_blank">@卜卜口</a>
+        <a href="https://spectreax.site/" target="_blank">SpectreAXのBlog</a>
+        <a href="https://weibo.com/reiove" target="_blank">Source Code@卜卜口</a>
         <a href="https://github.com/itorr/anime-grid" target="_blank">GitHub</a>
         <span>动画信息来自 <a href="https://bgm.tv/" target="_blank">番组计划</a></span>
     </footer>
@@ -89,7 +97,7 @@ const typeTexts = `
 最难安利
 最晦涩难懂
 
-最期续作
+最期盼续作
 最胃疼
 最被低估
 最过誉
@@ -98,7 +106,7 @@ const typeTexts = `
 `;
 new AnimeGrid({
     el: document.querySelector('.anime-grid-box'),
-    title: '动画生涯个人喜好表扩展版',
+    title: '动画生涯个人喜好表Plus',
     urlExt: '/ex.html',
     key: 'margiconch-animes-grid-ex',
     typeTexts,
