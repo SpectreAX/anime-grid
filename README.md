@@ -1,6 +1,6 @@
 ![动画生涯个人喜好表](https://github.com/SpectreAX/anime-grid/blob/master/Anime%20Grid.jpg?raw=true)
 
-# 🤖「动画生涯个人喜好表生成器」
+# 「动画生涯个人喜好表生成器」
 
 一个生成 动画生涯个人喜好表 的在线网页工具
 
