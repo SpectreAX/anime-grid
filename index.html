@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Grid - SpectreAXのBlog</title>
+    <meta name=keywords content="动画生涯,个人喜好表生成器,SpectreAXのBlog,动画生涯个人喜好表,动画喜好表,Anime Grid">
+    <link rel="stylesheet" href="document.css">
+</head>
+<body>
+    <div class="anime-grid-box"></div>
+    <div class="more-link-box">
+        <a href="ex.html"><b>不够填？来试试格子超多的 Plus 版</b></a>
+    </div>
+    <footer>
+        <a href="https://spectreax.site/" target="_blank">SpectreAXのBlog</a>
+        <a href="https://weibo.com/reiove" target="_blank">Source Code@卜卜口</a>
+        <a href="https://github.com/itorr/anime-grid" target="_blank">GitHub</a>
+        <span>动画信息来自 <a href="https://bgm.tv/" target="_blank">番组计划</a></span>
+    </footer>
+    <script src="anime-grid.js"></script>
+<script>
+const typeTexts = `入坑作
+最喜欢
+看最多次
+最想安利
+
+最佳剧情
+最佳画面
+最佳配乐
+最佳配音
+
+最治愈
+最感动
+最虐心
+最被低估
+
+最过誉
+最离谱
+最讨厌
+`;
+new AnimeGrid({
+    el: document.querySelector('.anime-grid-box'),
+    title: '动画生涯个人喜好表',
+    key: 'margiconch-animes-grid',
+    typeTexts,
+    col: 5,
+    row: 3,
+})
+</script>
+</body>
+</html>
