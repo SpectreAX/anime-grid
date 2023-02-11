@@ -1,14 +1,14 @@
-![动画生涯个人喜好表](https://github.com/itorr/anime-grid/blob/master/simple.jpg?raw=true)
+![动画生涯个人喜好表](https://github.com/SpectreAX/anime-grid/blob/master/Anime%20Grid.jpg?raw=true)
 
 # 🤖「动画生涯个人喜好表生成器」
 
 一个生成 动画生涯个人喜好表 的在线网页工具
 
-230211: 新增超多个格子的 [扩展版](https://lab.magiconch.com/anime-grid/ex.html)
+230211: 新增超多个格子的 [扩展版](https://spectreax.site/anime-grid/ex.html)
 
 ## 地址 
 
-https://lab.magiconch.com/anime-grid/
+https://spectreax.site/anime-grid/
 
 ## 类别
 
@@ -31,7 +31,7 @@ https://lab.magiconch.com/anime-grid/
  - 最离谱
  - 最讨厌
 
-## GitHub
+## GitHub 原项目地址
 https://github.com/itorr/anime-grid
 
 
