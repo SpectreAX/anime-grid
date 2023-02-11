@@ -118,9 +118,8 @@ class AnimeGrid {
         );
 
         const copyRightText = [
-            'lab.magiconch.com/anime-grid' + urlExt,
-            '@卜卜口',
-            '神奇海螺试验场',
+            'spectreax.site/anime-grid' + urlExt,
+            '源码@卜卜口',
             '动画信息来自番组计划',
             '禁止商业、盈利用途'
         ].join(' · ');
@@ -275,7 +274,7 @@ class AnimeGrid {
         <h3>生成好啦~</h3>
         <img>
         <div class="body">
-            <p>在 微博、微信、企鹅 应用中，请长按图片进行保存</p>
+            <p>在 微博、微信、QQ 等内置浏览器的应用中，请长按图片进行保存</p>
         </div>
         <div class="foot">
             <a class="close ui-btn current" action="closeOutput">关闭</a>
@@ -475,7 +474,7 @@ class AnimeGrid {
     }
     
     downloadImage(){
-        const fileName = `[神奇海螺][${this.title}].jpg`;
+        const fileName = `[${this.title}].jpg`;
         const mime = 'image/jpeg';
         const imgURL = this.canvas.toDataURL(mime,0.8);
         const linkEl = document.createElement('a');
